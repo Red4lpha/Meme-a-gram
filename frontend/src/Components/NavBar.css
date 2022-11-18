@@ -1,0 +1,10 @@
+header {
+  border-bottom: 2px solid black;
+  margin-bottom: 50px;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+  margin: 0 auto;
+}

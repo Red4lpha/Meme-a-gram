@@ -1,0 +1,17 @@
+main {
+  width: 700px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+article {
+  display: flex;
+  justify-content: stretch;
+  margin: 5px;
+  border: 1px solid slategray;
+}
+img {
+  width: 100%
+}
