@@ -14,7 +14,8 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/create' element={<Create />} />
-          {/* <Route path='/view/:' element={<ViewMeme />} /> */}
+          {/* TODO needs implementation */}
+          {/* <Route path='/view/:id' element={<ViewMeme />} /> */}
         </Routes>
       </Router>  
     </div>
