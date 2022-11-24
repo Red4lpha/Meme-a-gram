@@ -5,7 +5,7 @@ const { Meme } = require('../models')
 //? @access public
 const memes_get_all = async (req, res) => {
   try {
-    const meme = await Meme.findAll();
+    const meme = await Meme.findAll({order: [['createdAt', 'DESC']]});
     return res.status(200).json(meme);
   } catch(err) {
     console.log('Issue getting all memes');
