@@ -1,5 +1,5 @@
 .create-container {
-  width: 700px;
+  width: var(--desktop-width);
   margin: 0 auto;
   border: 2px solid slateblue;
   border-radius: 10px;
@@ -23,16 +23,34 @@
   margin-right: 20px;
 }
 
+.upload-btn-container {
+  position: relative;
+}
+.upload-text {
+  position: absolute;
+  right: 100;
+  margin-left: 10px;
+}
+
 .btn {
   padding: 10px;
-  background-color: mediumslateblue;
+  background-color: white;
   font-size: large;
   font-weight: bold;
   border-radius: 8px;
   border: 2px solid black;
 }
 
+.btn-disabled {
+  background-color: white;
+  color: grey;
+}
+
 .btn:hover {
   background-color:  darkblue;
   color: aliceblue;
+}
+.btn-disabled:hover {
+  background-color: white;
+  color: grey;
 }

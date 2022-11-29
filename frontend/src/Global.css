@@ -1,0 +1,18 @@
+:root {
+  --font-4xl: 3.157rem;
+  --font-3xl: 2.369rem;
+  --font-2xl: 1.777rem;
+  --font-xl:  1.333rem;
+  --font-base:1rem;
+  --font-xs:  .75rem;
+  --font-2xs: .563rem;
+
+  --desktop-width: 700px;
+
+}
+
+/* ------------Browser Style Reset--------------- */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}

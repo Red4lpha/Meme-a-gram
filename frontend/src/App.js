@@ -4,7 +4,8 @@ import Home from './Components/Home';
 import Create from './Components/Create';
 import NavBar from './Components/NavBar';
 import ViewMeme from './Components/ViewMeme';
-import './App.css';
+import './normalize.css';
+import './Global.css';
 
 function App() {
   return (

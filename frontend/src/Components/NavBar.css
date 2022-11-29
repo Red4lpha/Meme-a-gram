@@ -5,6 +5,16 @@ header {
 .header-container {
   display: flex;
   justify-content: space-between;
-  width: 700px;
+  align-items: center;
+  width: var(--desktop-width);
   margin: 0 auto;
+}
+
+.nav-add {
+  display: flex;
+  font-size: larger;  
+}
+svg {
+  width: 20px;
+  padding-left: 10px;
 }
