@@ -11,6 +11,11 @@ app.use(express.urlencoded({ extended: false }));
 //? ---Routes
 app.use('/api/memes', memesRoute);
 
+app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', '*');
+  next();
+});
+
 app.listen({ port: 5000 }, async () => {
   console.log(`Server started on port ${port}`)
   await sequelize.authenticate()
